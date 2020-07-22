@@ -1,5 +1,5 @@
 <p>instalacion de laravel</p>
-composer create-proyect --prefer-dist laravel/laravel "Nombre_del_proyecto" "version"
+composer create-proyect --prefer-dist laravel/laravel "Nombre_del_proyecto" "version"<br>
 -------------------------------------------------------------------------------
 <p>Configuracion local credeciales de acceso</p>
 ------------------------------------------------
