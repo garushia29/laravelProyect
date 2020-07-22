@@ -1,17 +1,17 @@
-instalacion de laravel
+<p>instalacion de laravel</p>
 composer create-proyect --prefer-dist laravel/laravel "Nombre_del_proyecto" "version"
 -------------------------------------------------------------------------------
-Configuracion local credeciales de acceso
+<p>Configuracion local credeciales de acceso</p>
 ------------------------------------------------
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE="Nombre_de_la_Base_de_datos" laravel
+<p>DB_CONNECTION=mysql <br>
+DB_HOST=127.0.0.1<br>
+DB_PORT=3306<br>
+DB_DATABASE="Nombre_de_la_Base_de_datos" laravel<br>
 DB_USERNAME=root
-DB_PASSWORD=
+DB_PASSWORD=</p>
 ----------------------------------------------------
-añadir inicio de session:
+<p>añadir inicio de session:</p>
 ---------------------------------------------------
-composer require laravel/ui
-php artisan ui bootstrap --auth
-npm install && npm run dev
+composer require laravel/ui<br>
+php artisan ui bootstrap --auth<br>
+npm install && npm run dev<br>
