@@ -35,4 +35,9 @@ class EntryController extends Controller
         $status = 'Your Entry has been published successfully';
         return back()->with(compact('status'));
     }
+
+    public function edit(Entry $entry)
+    {
+        return view('entries.edit', compact('entry'));
+    }
 }
